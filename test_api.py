@@ -33,3 +33,8 @@ def test_api_cat_breeds_index_success(client):
 def test_api_cat_breeds_three_breeds(client):
     response = client.get('api/cat-breeds/')
     assert len(response.json) == 3
+
+
+def test_api_get_first_cat_breed_is_200(client):
+    response = client.get('api/cat-breeds/0')
+    assert response.status_code == 200
