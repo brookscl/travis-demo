@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": "/Users/chris/.local/share/virtualenvs/travis-demo-gVd5yIJG/bin/python",
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
+}
