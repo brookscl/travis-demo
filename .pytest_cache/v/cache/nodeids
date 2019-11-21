@@ -1,6 +1,0 @@
-[
-  "test_api.py::test_index_returns_success",
-  "test_api.py::test_index_is_hello_world",
-  "test_api.py::test_api_cat_breeds_index_success",
-  "test_api.py::test_api_cat_breeds_three_breeds"
-]
