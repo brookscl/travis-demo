@@ -8,3 +8,5 @@ matrix:
 install:
   - pip install pipenv
   - pipenv install
+
+script: pytest
