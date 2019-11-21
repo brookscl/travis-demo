@@ -1,14 +1,12 @@
 language: python
 python:
-  - "3.7"
-
+- '3.7'
 install:
-  - pip install pipenv
-  - pipenv install
-
+- pip install pipenv
+- pipenv install
 script: pytest
-
 deploy:
   provider: heroku
-  api_key: 7beb7d23-83d3-48fa-8835-a0ada9b0d6e1
+  api_key:
+    secure: jhEYE8FgpDlw07Mn0GFDv3tKjiDKc9QsZfuP09G7MAysCl1rI9FLbu/VX28IcDCgqzgGFE7YG4WPJsaPmq2bul1GCLN7HcdhskdkRfNwM3zyw46xSueIqjUYXPBBltmAu6lPId7QruhLM3sCjm8Htx+qfzn7lwAPVgqZ+8yunsXbuo9xqEGkQ2LjovPkGSClN1+dBThhPsQIAjyyD8Hd8Cx5JFZr6O2uCvlguC2jspBfnPDkhdt+xBsw7tnvz71e+OcetTCkOtFAw6JebCEMCwu0rqLuHvt6SDbw8w7y7eqlTKKrd4SZiYGbvAkMeHawioVfF/8pgoVYXqNCHvcUgPhsZ50dUcPQ8PhzOWqye16ZY2w447UZMzI5Ac5DUXOfDo0DH5UvQsmZ40sUtdw4WMmniHK/fxo55Xa4txhlqWSx3g6j/Oc66UI0I4M5/bZZ8F+sHYQGHChE9hZ7QJAaOWgQOsAn1UI1zVltH3Jc5rJ1AOxAcIzKgSvA4hxj3s48ILHUdQ92BxYTkH9b3llT6SsgURHQFZuxEQ6pIGh49Kj7xZjJTSobhJABTppmDmRlagXb/BcynJZSe932qB1qDuTytJjnnfVDko+tyZHA3AKHS8/z2JuusQhJQE4Zu/tq41JfJuFbSEe+f8RJNq+sPw9UG5YXuAjaTRdZHqp5f+8=
   app: travis-demo-wou
