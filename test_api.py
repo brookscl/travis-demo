@@ -17,7 +17,7 @@ def client():
 
 
 def test_index_returns_success(client):
-    client.get('/').status_code == 200
+    assert client.get('/').status_code == 200
 
 
 def test_index_is_hello_world(client):

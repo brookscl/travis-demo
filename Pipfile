@@ -5,6 +5,7 @@ verify_ssl = true
 
 [dev-packages]
 flake8 = "*"
+coverage = "==5.0b1"
 
 [packages]
 flask = "*"

@@ -4,7 +4,7 @@ api_app = Flask(__name__)
 
 @api_app.route('/')
 def hello_world():
-    return 'Hello, Travis!'
+    return 'Hello, Heroku!'
 
 
 @api_app.route('/api/cat-breeds/')
