@@ -5,7 +5,7 @@ verify_ssl = true
 
 [dev-packages]
 flake8 = "*"
-coverage = "==5.0b1"
+coverage = "*"
 
 [packages]
 flask = "*"
@@ -13,4 +13,4 @@ pytest = "*"
 gunicorn = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
